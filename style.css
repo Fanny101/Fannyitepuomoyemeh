@@ -1,0 +1,248 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    margin: 0;
+}
+
+img {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.linkedin_page a {
+    color: #2828ec;
+    margin-left: 40vw;
+}
+
+body {
+    background-color: #070000;
+    font-family: 'plus Jakarta Sans', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.copy {
+    display: flex;
+}
+
+span a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+}
+
+#nav_bar img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 19px;
+    border: 0.5px solid #ff5e00 ;
+}
+
+.head_links {
+    float: right;
+}
+
+.home_links {
+    float: right;
+}
+
+aside img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    transition: 200ms ease-in-out;
+}
+
+aside img:hover {
+    transform: translateY(-5px);
+}
+
+aside {
+    background-color: black;
+    margin:20px;
+   
+}
+
+.copywrite {
+   margin-left: 15vw;
+}
+body{
+    background-color: #000000;
+}
+.strongtext{
+    color: #ff5e00;
+}
+a:hover{
+    color: #ff5e00;
+}
+#contacth1{
+    color: #ff5e00;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: left;
+}
+.Fullname{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0px 20px 0px;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+.Message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+.text{
+    width: 50vw;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+#privacy{
+    color: #dbcece57;
+}
+.textarea{
+    width: 70vw;
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ff5e00;
+    transition: 200ms ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+background-color: #e67635;
+transform: translateY(-5px);
+}
+ p{
+    font-weight: 500;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+#github  img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+   transition: 200ms ease-in-out;
+}
+#github img:hover{
+    transform: translateY(-5px);
+}
+h2{
+    color: #ff5e00;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+@media(min-width:900px) {
+
+    body {
+        background-color: #000000;
+        font-family: 'plus Jakarta Sans', sans-serif;
+        color: #ffffff;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #main_content_of_home_page {
+        display: flex;
+        align-items: center;
+    }
+
+    .linkedin_page{
+        margin-left: 44vw;
+    }
+    #main_image img {
+        border-radius: 50%;
+        border: 5px solid #ff5e00;
+        margin-left: 15vw;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 40px;
+    }
+
+    .Brief {
+        margin-left: 10vw;
+        font-weight: 300;
+        font-size: 24px;
+        word-spacing: 2px;
+        line-break: 3px;
+    }
+
+    aside {
+        background-color: black;
+    }
+
+    aside img {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        display: inline;
+        transition: 200ms ease-in-out;
+        margin-left: 2vw;
+    }
+    .whatapp_link{
+        margin-left: 35vw;
+    }
+
+    aside img:hover {
+        transform: translateY(-5px);
+    }
+
+    .copywrite {
+       float:right ;
+    }
+
+    strong {
+        text-align: center;
+    }
+    #contact{
+        display:flex ;
+        align-content:center ;
+    }
+    .copywrite{
+        margin-left: 75vw;
+    }
+    .Brief{
+        margin-right: 2vw;
+    }
+    main{
+        margin-top: 30px;
+    }
+    .strongtext{
+        color: #ff5e00;
+        margin-left: 37vw;
+    }
+}
