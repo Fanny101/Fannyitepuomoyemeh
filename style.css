@@ -14,7 +14,10 @@ img {
 
 .linkedin_page a {
     color: #2828ec;
-    margin-left: 40vw;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
 }
 
 body {
@@ -78,9 +81,8 @@ aside {
     margin:20px;
    
 }
-
-.copywrite {
-   margin-left: 15vw;
+footer{
+   
 }
 body{
     background-color: #000000;
@@ -181,9 +183,7 @@ h2{
         align-items: center;
     }
 
-    .linkedin_page{
-        margin-left: 44vw;
-    }
+    
     #main_image img {
         border-radius: 50%;
         border: 5px solid #ff5e00;
@@ -221,9 +221,6 @@ h2{
         transform: translateY(-5px);
     }
 
-    .copywrite {
-       float:right ;
-    }
 
     strong {
         text-align: center;
@@ -231,9 +228,6 @@ h2{
     #contact{
         display:flex ;
         align-content:center ;
-    }
-    .copywrite{
-        margin-left: 75vw;
     }
     .Brief{
         margin-right: 2vw;
