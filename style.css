@@ -114,17 +114,17 @@ a:hover{
     margin: 20px 0px 20px 0px;
 }
 .text{
-    width: 50vw;
+    width: 75vw;
     height: 40px;
-    font-size: 20px;
+    font-size: 12px;
     border-radius: 15px 15px 15px 15px;
 }
 #privacy{
     color: #dbcece57;
 }
 .textarea{
-    width: 70vw;
-    font-size: 20px;
+    width: 80vw;
+    font-size: 12px;
     border-radius: 15px 15px 15px 15px;
 }
 button{
