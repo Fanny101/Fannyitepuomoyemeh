@@ -23,7 +23,7 @@ body {
     background-color: #070000;
     font-family: 'plus Jakarta Sans', sans-serif;
     color: #ffffff;
-    margin-left: 2vw;
+    margin-left: 4vw;
 }
 
 .copy {
@@ -78,9 +78,6 @@ aside img:hover {
 aside {
     background-color: black;
     margin:20px;
-   
-}
-footer{
    
 }
 body{
