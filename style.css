@@ -116,7 +116,7 @@ a:hover{
 .text{
     width: 75vw;
     height: 40px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 15px 15px 15px 15px;
 }
 #privacy{
@@ -124,7 +124,7 @@ a:hover{
 }
 .textarea{
     width: 80vw;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 15px 15px 15px 15px;
 }
 button{
